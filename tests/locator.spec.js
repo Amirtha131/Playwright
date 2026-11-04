@@ -1,0 +1,22 @@
+//First Name = //input[@placeholder='First Name']
+//Last name = //input[@placeholder='Last Name']
+
+// Address = //textarea[@ng-model='Adress']
+// Email address = //input[@type='email']
+// phone = //input[@type='tel']
+// Gender = (Radio button - Male)----> //input[@value='Male']
+    //    = (Radio button - female)---->//input[@value='FeMale']
+//Hobbies = Cricket ---> //input[@value='Cricket']
+// Hobbies = Movies ---> //input[@id='checkbox2']
+// Hobbies  = Hockey ----> //input[@id='checkbox3']
+// Language = //div[@id='msdd']
+// Skills = //select[@id='Skills']
+// Conutries = //select[@id='countries']
+// Select country= //span[@role='combobox']
+// year = //select[@id='yearbox']
+//Month = //select[@placeholder='Month']
+//Date =   //select[@id='daybox']
+// Password = //input[@id='firstpassword']
+//confirmpassword = #secondpassword
+//submit = #submitbtn
+//cancel =   //*[@id='Button1']

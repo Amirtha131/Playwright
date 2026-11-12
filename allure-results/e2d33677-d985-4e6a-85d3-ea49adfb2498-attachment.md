@@ -1,0 +1,202 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: Firstrun.spec.js >> Demo
+- Location: tests\Firstrun.spec.js:2:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [aria-hidden] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: http://www.automationtesting.in
+      - heading [level=1] [ref=e10]: Automation Demo Site
+    - navigation [ref=e11]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link [ref=e16] [cursor=pointer]:
+            - /url: Index.html
+            - text: Home
+        - listitem [ref=e17]:
+          - link [ref=e18] [cursor=pointer]:
+            - /url: Register.html
+            - text: Register
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: WebTable.html
+            - text: WebTable
+        - listitem [ref=e21]:
+          - link [ref=e22] [cursor=pointer]:
+            - /url: SwitchTo.html
+            - text: SwitchTo
+          - generic [ref=e23]: 
+        - listitem [ref=e24]:
+          - link [ref=e25] [cursor=pointer]:
+            - /url: Widgets.html
+            - text: Widgets
+          - generic [ref=e26]: 
+        - listitem [ref=e27]:
+          - link [ref=e28] [cursor=pointer]:
+            - /url: Interactions.html
+            - text: Interactions
+          - generic [ref=e29]: 
+        - listitem [ref=e30]:
+          - link [ref=e31] [cursor=pointer]:
+            - /url: SwitchTo.html
+            - text: Video
+          - generic [ref=e32]: 
+        - listitem [ref=e33]:
+          - link [ref=e34] [cursor=pointer]:
+            - /url: WYSIWYG.html
+            - text: WYSIWYG
+          - generic [ref=e35]: 
+        - listitem [ref=e36]:
+          - link [ref=e37] [cursor=pointer]:
+            - /url: "#"
+            - text: More
+          - generic [ref=e38]: 
+        - listitem [ref=e39]:
+          - link [ref=e40] [cursor=pointer]:
+            - /url: http://practice.automationtesting.in/
+            - text: Practice Site
+  - generic [ref=e42]:
+    - heading [level=2] [ref=e43]: Register
+    - generic [ref=e44]:
+      - insertion [ref=e46]:
+        - generic [ref=e49]:
+          - heading [level=2] [ref=e51]: Discover more
+          - link [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: Automation testing tools
+          - link [ref=e57] [cursor=pointer]:
+            - generic [ref=e58]: Software testing courses
+          - link [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]: Automation software demo
+          - link [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: Selenium testing guide
+          - link [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]: Automation registration service
+          - link [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]: Test automation consulting
+          - link [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: Software QA services
+          - link [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: Home automation systems
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]: Full Name*
+          - textbox [ref=e97]:
+            - /placeholder: First Name
+            - text: Amirtha
+          - textbox [ref=e99]:
+            - /placeholder: Last Name
+            - text: Selvaraj
+        - generic [ref=e100]:
+          - generic [ref=e101]: Address
+          - textbox [ref=e103]: AbCD stop
+        - generic [ref=e104]:
+          - generic [ref=e105]: Email address*
+          - textbox [ref=e107]: abcd@gmail.com
+        - generic [ref=e108]:
+          - generic [ref=e109]: Phone*
+          - textbox [ref=e111]: "9876543210"
+        - generic [ref=e112]:
+          - generic [ref=e113]: Gender*
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - radio [ref=e116]
+              - text: Male
+            - generic [ref=e117]:
+              - radio [checked] [ref=e118]
+              - text: FeMale
+        - generic [ref=e119]:
+          - generic [ref=e120]: Hobbies
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - checkbox [checked] [ref=e123]
+              - generic [ref=e124]: Cricket
+            - generic [ref=e125]:
+              - checkbox [checked] [ref=e126]
+              - generic [ref=e127]: Movies
+            - generic [ref=e128]:
+              - checkbox [ref=e129]
+              - generic [ref=e130]: Hockey
+        - generic [ref=e131]:
+          - generic [ref=e132]: Languages
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - text: Bulgarian
+              - generic [ref=e137] [cursor=pointer]
+            - generic [ref=e138]:
+              - text: Icelandic
+              - generic [ref=e139] [cursor=pointer]
+            - generic [ref=e140]:
+              - text: Lithuanian
+              - generic [ref=e141] [cursor=pointer]
+        - generic [ref=e142]:
+          - generic [ref=e143]: Skills
+          - combobox [ref=e145]
+        - generic [ref=e146]:
+          - generic [ref=e147]: Country*
+          - combobox [ref=e149]
+        - generic [ref=e150]:
+          - generic [ref=e151]: "Select Country :"
+          - generic [ref=e152]:
+            - combobox [aria-hidden] [ref=e153]
+            - combobox [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]: India
+        - generic [ref=e158]:
+          - generic [ref=e159]: Date Of Birth
+          - combobox [ref=e161]
+          - combobox [ref=e163]
+          - combobox [ref=e165]
+        - generic [ref=e166]:
+          - generic [ref=e167]: Password
+          - textbox [ref=e169]: abcd@1234
+        - generic [ref=e170]:
+          - generic [ref=e171]: Confirm Password
+          - textbox [ref=e173]: abcd@1234
+        - generic [ref=e174]:
+          - button [ref=e175] [cursor=pointer]: Submit
+          - button [ref=e176] [cursor=pointer]: Refresh
+      - generic [ref=e177]:
+        - generic [ref=e178]: Photo
+        - button [ref=e182]
+  - iframe [ref=e184]
+  - contentinfo [ref=e185]:
+    - generic [ref=e187]:
+      - generic [ref=e188]:
+        - text: "\"@ 2016\""
+        - link [ref=e189] [cursor=pointer]:
+          - /url: "#"
+          - text: Automation Testing
+        - text: "\"All Rights Reserved.\""
+      - generic [ref=e190]:
+        - link [ref=e191] [cursor=pointer]:
+          - /url: https://www.facebook.com/automationtesting2016/
+          - generic [ref=e192]: 
+        - link [ref=e193] [cursor=pointer]:
+          - /url: https://twitter.com/krishnasakinala
+          - generic [ref=e194]: 
+        - link [ref=e195] [cursor=pointer]:
+          - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+          - generic [ref=e196]: 
+        - link [ref=e197] [cursor=pointer]:
+          - /url: https://plus.google.com/105286300926085335367
+          - generic [ref=e198]: 
+        - link [ref=e199] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+          - generic [ref=e200]: 
+```

@@ -7,7 +7,7 @@ const card = frame.locator('//input[@placeholder="Name on card"]');
 await card.fill("Amirtha");
 await frame.locator('//input[@placeholder="1234 5678 9012 3456"]').fill('1234 5678 9012 3456');
 await frame.locator('//input[@placeholder="MM/YY"]').fill('01/03');
-await frame.locator('//input[@placeholder="•••"]').fill('321');
+await frame.locator('//input[@placeholder="•••"]').fill('88778');
 await frame.locator('#btn-pay-now').click();
 console.log("Single frame completed");
 

@@ -1,6 +1,6 @@
 import {test} from '@playwright/test'
 
-test.only('Handle New Tab', async({page,context})=>{
+test('Handle New Tab', async({page,context})=>{
     await page.goto('https://demoqa.com/browser-windows');
     const newpagepromise = context.waitForEvent('page');
     await page.locator('#tabButton').click();
